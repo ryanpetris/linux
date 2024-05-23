@@ -642,6 +642,8 @@ struct ath12k {
 
 	u32 freq_low;
 	u32 freq_high;
+
+	bool nlo_enabled;
 };
 
 struct ath12k_hw {
